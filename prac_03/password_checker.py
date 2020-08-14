@@ -1,3 +1,7 @@
+"""
+Password Checker
+Sophie Thomas
+"""
 def main():
     password = get_password()
     valid_password = False
