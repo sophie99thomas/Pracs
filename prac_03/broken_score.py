@@ -3,13 +3,22 @@ CP1404/CP5632 - Practical
 Fixed score program
 Sophie Thomas
 """
+import random
+
+
 def main():
-    score = float(input("Enter score: "))
-    if score <= 0:
-        print("Invalid score")
-    else:
-        word_to_print = score_words(score)
-        print(word_to_print)
+    # score = float(input("Enter score: "))
+    random_score = random.randint(0, 101)
+    print(random_score)
+    word_to_print = score_words(random_score)
+    print(word_to_print)
+
+    # if score <= 0:
+    #     print("Invalid score")
+    # else:
+    #     word_to_print = score_words(score)
+    #     print(word_to_print)
+
 
 
 def score_words(score):
