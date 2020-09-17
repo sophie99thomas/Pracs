@@ -1,7 +1,9 @@
 """
-Guitars
+Guitars class.
+Sophie Thomas.
 """
 import datetime
+
 
 class Guitar:
 
@@ -19,4 +21,3 @@ class Guitar:
 
     def is_vintage(self):
         return self.get_age() >= 50
-

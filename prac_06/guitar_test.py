@@ -1,6 +1,7 @@
-# name = "Gibson L-5 CES"
-# year = 1922
-# cost = 16035.40
+"""
+Guitar class test.
+Sophie Thomas.
+"""
 from prac_06.guitar import Guitar
 print_format = "{} is {} years old. Is vintage: {}"
 gibson = Guitar("Gibson L-5 CES", 1922, 16035.40)
